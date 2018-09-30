@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+ 
+	<title>G-TALKS GRIET</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="G-Talks is a derivative of TEDxGRIET.It is an event curated specially for the students of GRIET.">
+    <meta name="author" content="MK Developers" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!--Style Sheet--> 
+  <link rel="shortcut icon" href="images/fav.png">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="stylesheet" href="css/style11.css" />
+  <link rel="stylesheet" href="css/speakers.css" />
+
+  <!--<link rel="stylesheet" href="css/westyle.css" />-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/speaker.css" />
+  <link rel="mask-icon" href="images/fav.png" color="#E62B1E" sizes="any" /> 
+  <link rel="stylesheet" href="timer/countdowncube.css">
+  <style class="inlinestyle">
+  #counter
+        {
+           margin: 10 auto;
+        text-align: center;
+        }
+		</style>
+<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+
+ 
+
+<script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+<script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+<script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+<meta charset='UTF-8'><meta name="robots" content="noindex">
+<link rel='stylesheet prefetch' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+<style class="cp-pen-styles">
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+
+
+
+a:link,
+a:active,
+a:visited{
+  color:rgba(255,255,255,1);
+}
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team{
+  margin:40px;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 16px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(230, 78, 62, 0.9);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}</style>
+<style>
+
+/* ================================================================ *\
+	#Header
+\* ================================================================ */
+
+.header1 { min-height: 640px; background: #15141a url('http://www.tedxgriet.com/speak/header-bg1.jpg') no-repeat 0 0; background-size: cover; background-repeat: repeat;  background-attachment: fixed; }
+<!--.headerfor { min-height: 260px; background: #15141a url(css/images/bgfor.JPG) no-repeat 0 0; background-size: cover; background-repeat: repeat;  background-attachment: fixed; }
+-->.headercrew { min-height: 640px; background: #15141a url('http://www.tedxgriet.com/speak/crew.jpg') no-repeat 0 0; background-size: cover; background-repeat: repeat;  background-attachment: fixed; }
+.headerwe { min-height: 640px; background: #15141a url('http://www.tedxgriet.com/speak/weback.jpg') no-repeat 0 0; background-size: cover; background-repeat: no-repeat;  background-attachment: fixed; }
+.headerspeak { min-height: 640px; background: #15141a url('http://www.tedxgriet.com/speak/back.jpg') no-repeat 0 0; background-size: cover; background-repeat: no-repeat;  background-attachment: fixed; }
+
+
+
+.jumbotron { background: transparent; padding: 0; margin: 0; min-height: 535px; }
+.jumbotron-content { padding-top: 48px; }
+.jumbotron-image {    padding: 150px 0 30px;}
+
+.jumbotron h5 { color: #008ed6; font-size: 14px; font-weight: bold; text-transform: uppercase; }
+.jumbotron h1 { margin: 15px 0 19px; color: #fff; font-size: 48px; }
+.jumbotron p { font-size: 18px; margin-right: 20px; }
+.jumbotron-actions { margin-top: 60px; font-size: 0; }
+.jumbotron-actions .btn + .btn { margin-left: 20px; }
+
+
+
+/* ================================================================ *\
+	#Callout
+\* ================================================================ */
+.callout { padding: 43px 0 58px; background: #15141a; overflow: hidden; }
+.callout-title { float: left; color: #fff; font-weight: 300; }
+.callout-title strong { font-weight: 600; }
+.callout-actions { float: right; margin-top: 17px; font-size: 0; }
+.callout-actions .btn + .btn { margin-left: 20px; }
+
+</style>
+</head>
+
+<body>
+
+<!-- count particles 
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>-->
+
+<section>
+<!-- Navbar (sit on top) -->
+<div id="container">
+<div class="w3-top">
+  <div class="w3-bar w3-black <!--w3-opacity-min-->  w3-wide w3-padding w3-card-2     " id="myNavbar">
+     <!-- <a href="#home" class="w3-bar-item w3-button w3-wide" style="font-weight:bold; color:red"><img src="css/images/tedlogo.png" style="width:300px; height:40px;"></a>
+<!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+	<ul class="nav navbar-nav navbar-right">
+	<li>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+	  </li>
+	  <li>
+      <a href="#tedxgriet" class="w3-bar-item w3-button"><i class="fa fa-th"></i> G-TALKS</a>
+	  </li>
+	  <li>
+      <a href="#crew" class="w3-bar-item w3-button"><i class="fa fa-user" style="color:red" ></i> CREW</a>
+	  </li>
+	  <li>
+      <a href="#speakers" class="w3-bar-item w3-button"><i class="fa fa-usd" ></i> SPEAKERS</a>
+	  </li>
+	
+	  <li>
+      <a href="#contactus" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT </a>
+	  </li>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+	
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<br><br>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">G-TALKS</a>
+  <a href="#crew" onclick="w3_close()" class="w3-bar-item w3-button">CREW</a>
+  <a href="#speakers" onclick="w3_close()" class="w3-bar-item w3-button">SPEAKERS</a>
+  <a href="#contactus" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+</div>
+</section>
+<!-- particles.js container -->
+<header>
+
+
+
+
+
+<div id="particles-js"><br><br><br>
+ <div class="w3-display-topmiddle " id="home">
+<!--<p class="w3-xxlarge w3-text-black"><span class="w3-padding w3-black w3-opacity-min"><b>TED</b></span> <span class="w3-hide-small w3-text-white">GRIET</span></p>
+-->
+<br><br><br><br><br><br><br><br> 
+<img src="images/gtalkslogo.png" style="width:350px; height:70px;">
+<br><br><center><!--
+<button onclick="location.href='https://goo.gl/uAtgR1';" type="button" class=" btn btn-danger btn-lg " >Apply For TEDxGRIET 2k17!</button>
+-->
+<br><br><br>     
+<div id='counter'></div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="timer/countdowncube.js"></script>
+<script>
+                    $('#counter').countdownCube({target: new Date( 'SEP 29, 2018 5:30:00' ), cubeSize: 65 } );
+</script>
+
+
+
+<h1 style="color:white; ">THEME:</h1>
+		<h2 style="color:white; font-family: Helvetica Neue"><a style="color:white"></a>Uncharted Waters</h2>
+		<h4 style="color:white;">SEP 29,2018,10:30am IST (UTC +5.5hrs) <br>
+		<span style="color:white;"> Seminar Hall, Pharmacy block, GRIET</span></h4>
+	<!--	
+<a href="http://www.tedxgriet.com/tedxgriet.apk" class="btn btn-danger">Download Now The App Now</a>
+-->
+</div>
+</center>
+	
+
+<div class="w3-display-bottomleft">
+
+</div>
+
+</header>
+
+<!--Home Page Ends Here -- Dont Change It -->
+
+
+
+
+
+<!-- chess di-->
+	<header class="header1">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="jumbotron-content">
+							<h1 style="color:red"> About G-Talks</h1>
+						
+							<p style="color:white"><b>G-Talks is a derivative of TEDxGRIET.
+It is an event curated specially for the students of GRIET. 
+The vision behind the event is to share the experiences of various alumni members of our college sharing their success stories and giving captivates perspectives about their journey into the uncharted waters. </b></p>
+							<h1 style="color:red"> About Uncharted Waters</h1>
+							<p style="color:white"><b>Not everyone who persued engineering worked in that field but instead decided to sail the uncharted waters. 
+Those waves which you haven’t had a vision of. 
+						</div><!-- /.jumbotron-content -->
+					</div><!-- /.col-md-6 -->
+					
+					
+							<div class="col-md-6">
+						<div class="jumbotron-image">
+						
+				<video id="vid1" width="100%" ;height="auto" controls>
+  <source src="http://www.tedxgriet.com/gtalks.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  <div>
+          	
+</div>
+</video>
+<script>document.getElementById("vid1").addEventListener("loadedmetadata", function() { this.currentTime = 1;}, false); 
+</script>
+							</div><!-- /.jumbotron-image -->
+					</div><!-- /.col-md-6 -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.jumbotron -->
+	</header><!-- /.header -->
+
+<html>
+<section class="section section-testimonials" id="speakers">
+		<div class="container">
+			<header class="section-head">
+				<!--<h5>Quality Has Its Price</h5>-->
+			
+				<h2 class="section-title">Speakers</h2><!-- /.section-title -->
+			</header><!-- /.section-head -->
+			 <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="images/speakers/murty.jpg" alt="" class="img-responsive" 
+                <figcaption>
+                  <p><b>Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others.</b></p>
+                </figcaption>
+              </figure>
+              <h4 style="color:white;">Dr. Jandhyala N Murthy</h4>
+              <p><b style="color:white;">Director,GRIET</b></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.row -->
+	<hr>
+	<div class="container">
+    <div class="row text-center">
+      <div class="container">
+        <div class="row">
+<div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="images/speakers/akhil.jpg" alt="" class="img-responsive" >
+                <figcaption>
+                  <p><b>
+				  If I were ever stranded on a desert island there would be three things I’d need: food, shelter, and a grip.</b></p>
+				  </figcaption>
+              </figure>
+              <h4 style="color:white;">Akhil Chowdary</h4>
+              <p><b style="color:white;">Film Maker</b></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          
+     </div><!-- /.row -->
+      </div><!-- /.container -->
+     <hr>
+	  <div class="row text-center">
+<!-- /.col-md-12 -->
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="images/speakers/sanjeev.png" alt="" class="img-responsive" >
+                <figcaption>
+                  <p><b>Try to become not a man of success, but try rather to become a man of value.</b></p>
+                </figcaption>
+              </figure>
+              <h4 style="color:white;"> Dr. N.Sanjeev</h4>
+              <p><b style="color:white;">He’s an IIT graduate,Worked for the Delhi metro rail Professor, GRIET</b></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.row -->
+	<hr>
+	<div class="container">
+    <div class="row text-center">
+      <div class="container">
+        <div class="row">
+<div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="images/speakers/raju.jpg" alt="" class="img-responsive" >
+                <figcaption>
+                  <p><b >All our dreams can come true, if we have the courage to pursue them.</b></p>
+                </figcaption>
+              </figure>
+              <h4 style="color:white;">Purushottam Raju</h4>
+              <p><b style="color:white;">Chairman of Possvalio</b></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+ </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.row -->
+	<hr>
+	  <div class="row text-center">
+<!-- /.col-md-12 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="images/speakers/kisshhan.jpg" alt="" class="img-responsive">
+                <figcaption>
+                  <p><b>
+				  I wonder what makes us build inefficiently-shaped human robots instead of nice streamlined machines?
+				  </b></p>
+                </figcaption>
+              </figure>
+              <h2 style="color:white;"> Mr.Kisshhan</h2>
+              <p><b style="color:white;">CEO of H-Bots and the founder of ROBOFEST.</b></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+             
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+            
+              <h4></h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+				
+									
+									
+									
+									
+									
+									
+
+									
+								
+						</ul><!-- /.slides -->
+					</div><!-- /.slider-clip -->
+				</div><!-- /.slider-testimoinals -->				
+				
+				
+				
+				
+			</div><!-- /.section-body -->
+		</div><!-- /.container -->
+	</section><!-- /.section section-testimonials -->	
+	</html>
+
+
+	
+   
+	<html>
+<section id="crew">
+<header class="headercrew">
+<div class="container">
+<div class="callout-actions">
+			
+			<h1 class="w3-center section-head" style="font-family:mongolianbati; color:red;"><u>CREW</u></h1>
+			
+			<div class="container">
+				<div class="row">
+				    <div class="row speakers">
+				
+				  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-4">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/nekitha.jpg" alt="img26" style="width:220px;height:240px;"/>  </figure>
+							<figcaption>
+								<h1 style="font-family:mongolianbati; color:red;">Nekitha <span>Rao</span></h1><br>
+								
+								<h1 style="font-family:mongolianbati; color:white;">Licensee</h1>
+							</figcaption>
+						
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6 col-sm-4">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+							
+							</div>
+							<img src="images/crew/prudvi.jpg" alt="img26"style="width:220px;height:240px;"/>  </figure>
+							<figcaption>
+								<h1 style="font-family:mongolianbati; color:red;">Prudhvi <span>Naidu</span></h1>
+								<h1 style="font-family:mongolianbati; color:white;">Co-Organizer</h1>
+							</figcaption>
+						
+					</div>
+					<div class="col-lg-4 col-md-4 col-xs-6 col-sm-4">
+						<figure class="effect-zoe">
+							<div class="speaker-info">
+								
+							</div>
+							<img src="images/crew/rhea.jpg" alt="img26" style="width:220px;height:240px;"/>  </figure>
+							<figcaption>
+								<h1 style="font-family:mongolianbati; color:red;">Rhea <span>Trivedi</span></h1>
+								<h1 style="font-family:mongolianbati; color:white;">Executive Producer</h1>
+							</figcaption>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+					<!--top Row-->
+			<div class="container">
+				<div class="row">
+				    <div class="row speakers">		
+					
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/rohit.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2  style="color:black; text-transform: capitalize">Rohit <span>Kv</span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/manikanth.jpg"alt="img26" style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2  style="color:black; text-transform: capitalize">P Sai <span>Manikanth</span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Technical Head</h2>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/deepna.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+							<h2  style="color:black; text-transform: capitalize">Deepna <span>Thalanki</span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/tanishq.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2 style="color:black; text-transform: capitalize">Sai Tanishq<span> Nannapaneni</span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Technical Head</h2>
+							</figcaption>
+						</figure>
+					</div>
+				
+					
+				
+				</div>
+			</div>
+		</div>
+				<div class="container">
+				<div class="row">
+				    <div class="row speakers">		
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/kethu.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2 style="color:black; text-transform: capitalize">Kethu Srinath <span>Reddy </span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					</div>
+				
+			
+			
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/mohit.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+							<h2 style="color:black; text-transform: capitalize">Mohit <span>Chowdary </span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/aditya.jpg" alt="images26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2 style="color:black; text-transform: capitalize">Aditya <span>Giridhar </span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/kushal.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2 style="color:black; text-transform: capitalize">Kushal <span>Reddy </span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					
+					</div>
+					
+							   	
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+						<figure class="effect-zoe">
+							
+							<img src="images/crew/vikranth.jpg" alt="img26"style="width:220px;height:240px;"/>
+							<figcaption>
+								<h2 style="color:black; text-transform: capitalize">M <span>VIKRANTH  </span></h2>
+								<h2 style="font-family:mongolianbati; color:white;">Organizing Member</h2>
+							</figcaption>
+						</figure>
+					
+					           </div>
+							   			   	
+							   
+			</div>
+			</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+				
+		</section>
+		</html>
+
+
+<?php
+//include("we.php");
+?>	
+ 
+<!-- scripts -->
+<script src="particles/particles.js"></script>
+<script src="js/app.js"></script>
+<!-- stats.js 
+<script src="js/lib/stats.js"></script>
+<script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>-->
+
+
+
+
+<script>
+	// for typewrite theme
+$(document).ready(function(){
+//get the content
+var content = $('.typewrite').html();
+//find the length of the content
+var contentLength = content.length;
+var char = 0;
+$('.typewrite').html('<span class="typing-cursor"></span>');
+ 
+//Here is the function
+(function typeFunc() {   
+	//dynamic delay to get the typewriting feel
+    var typingSpeed = Math.round(Math.random() * 50) + 20;
+    setTimeout(function() {
+        char++;
+        var type = content.substring(0, char);
+		$('.typewrite').html(type + '<span class="typing-cursor"></span>');
+		//recursive
+        typeFunc();
+    }, typingSpeed);
+}());
+});
+
+	// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<!-- <footer> -->
+
+<section class="section section-contacts" id="contactus">
+		<div class="container">
+			
+				<h4 style="color:black;">Stay In Touch</h4>
+			
+				<h1 >Contact us</h1><!-- /.section-title -->
+			</header><!-- /.section-head -->
+			
+			<div class="section-body">
+				<div class="contacts">
+					<div class="row">
+						<div class="col-sm-4">
+							<i class="fa fa-mobile"></i>
+							<p>Contact US</p>
+							<br><p> <a style="color:black" href="https://m.facebook.com/nekitharao02">NEKITHA R</a><br>
+								 <br>
+								
+								
+
+								
+							</p>
+						</div><!-- /.col-sm-4 -->
+						
+						<div class="col-sm-4">
+							<i class="fa fa-map-marker"></i>
+							
+							<p>
+								GRIET <br>
+
+								 <br>
+
+							
+							</p>
+							<p> <a style="color:black" href="https://www.facebook.com/100009602841659">N GOVINDA NAIDU</a><br>
+								Phone: +91 77027 37890 <br>
+						</div><!-- /.col-sm-4 -->
+						
+						<div class="col-sm-4">
+							<i class="fa fa-envelope"></i>
+							
+							<p>
+								<a  style="color:red">gtalks947@gmail.com</a><br>
+							</p><br>
+							<p> <a  style="color:black" href="https://www.facebook.com/profile.php?id=100002816861367">RHEA TRIVEDI </a><br>
+								+91 81214 45523<br>
+						</div><!-- /.col-sm-4 -->
+					</div><!-- /.row -->
+				</div><!-- /.contacts -->
+
+<h1 >Developed By</h1>
+
+
+<div class="col-md-6">
+<h3><a style="color:red" href="http://mkdevelopers.co.in" target="_blank"> <u>P Sai Manikanth</u></a></h3>
+</div>
+<div class="col-md-6">
+<h3><a style="color:red" href="https://www.facebook.com/saitanishq.nannapaneni"> <u>Sai Tanishq Nannapaneni</u></a></h3>
+</div><br><br><br>
+<!--div class="col-md-4">
+<h3><a style="color:red" href="https://www.twitter.com/aditya_giridhar"> <u></u></a></h3>
+</div>
+<br><br--><br>
+	<footer class="footer">
+	    <div class="container">
+	        <p style="color:white;">Copyright © G-TALKS 2018. All rights reserved.</p>
+	    </div>
+	</footer>
+<!-- </footer>-->
+</body>
+</html>
